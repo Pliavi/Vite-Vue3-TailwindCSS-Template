@@ -1,14 +1,15 @@
 <template>
-  <HelloWorld msg="Hello Vue 3.0 + Vite + TailwindCSS" />
+  <div class="w-screen h-screen max-w-4xl pt-12 mx-auto text-center text-gray-800">
+    <instruction-box />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import InstructionBox from './components/InstructionBox.vue'
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    InstructionBox
   }
 }
 </script>
